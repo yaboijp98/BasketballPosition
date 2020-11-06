@@ -1,0 +1,11 @@
+Package: BasketballPosition
+Type: Package
+Title: Find your pickup basketball prototype
+Version: 0.1.0
+Author: Jake Perry
+Maintainer: Jake Perry <jperry98@byu.edu>
+Description: Helps find your pickup basketball prototype
+License: CC0
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
