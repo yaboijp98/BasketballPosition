@@ -1,5 +1,5 @@
 #' Pickup Basketball Prototype Finder
-#' @param relativeHeight from 1-5 how do you rank in height with your teammates
+#' @param relativeHeight from 1-5 how do you rank in height with your teammates (1 is tallest, 5 is shortest)
 #' @param shooter logical, are you a shooter
 #' @param ballhandler logical, can you dribble well
 #' @param defense logical, are you a good defender
@@ -11,10 +11,10 @@
 
 findPrototype = function(relativeHeight, shooter, ballhandler, defense) {
   #find general position
-  if (relativeHeight == 1) {
+  if (relativeHeight == 5) {
     gen_pos = "back court"
   }
-  else if (relativeHeight == (2 || 3)) {
+  else if (relativeHeight == 3 || relativeHeight == 4) {
     gen_pos = "wing"
   }
   else {
